@@ -16,7 +16,7 @@
 using namespace std;
 
 //Deklarasi Array
-int andini[79];
+int andini[73];
 
 void merge(int, int, int);
 
@@ -35,7 +35,7 @@ void  merge_sort(int low, int high) {
 void merge(int low, int mid, int high) {
 
 	//Deklarasi penunjuk array yang nanti akan di bagi
-	int h, index, AA, b[79], k;
+	int h, index, AA, b[73], k;
 	h = low;
 	index = low;
 	AA = mid + 1;
