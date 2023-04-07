@@ -30,3 +30,6 @@ void  merge_sort(int low, int high) {
 		merge(low, mid, high);
 	}
 }
+
+//Menggabungkan 2 array dalam satu larik
+void merge(int low, int mid, int high) {
