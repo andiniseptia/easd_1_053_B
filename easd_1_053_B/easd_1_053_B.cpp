@@ -71,3 +71,6 @@ void merge(int low, int mid, int high) {
 }
 
 int main() {
+	//Deklarasi variable
+	int AA;
+	int i;
