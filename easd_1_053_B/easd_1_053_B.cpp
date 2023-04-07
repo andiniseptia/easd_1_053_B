@@ -39,3 +39,16 @@ void merge(int low, int mid, int high) {
 	h = low;
 	index = low;
 	AA = mid + 1;
+
+	//Fungsi perulangan
+	while ((h <= mid) && (AA <= high)) {
+		if (andini[h] <= andini[AA]) {
+			b[index] = andini[h];
+			h++;
+		}
+		else {
+			b[index] = andini[AA];
+			AA++;
+		}
+		index++;
+	}
