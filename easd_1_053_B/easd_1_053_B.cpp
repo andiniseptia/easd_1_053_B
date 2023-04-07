@@ -70,3 +70,8 @@ void merge(int low, int mid, int high) {
 		andini[k] = b[k];
 	}
 }
+
+int main() {
+	//Deklarasi variable
+	int AA;
+	int i;
