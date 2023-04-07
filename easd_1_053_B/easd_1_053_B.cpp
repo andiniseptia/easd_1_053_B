@@ -59,3 +59,14 @@ void merge(int low, int mid, int high) {
 			index++;
 		}
 	}
+
+	else {
+		for (k = h; k <= mid; k++) {
+			b[index] = andini[k];
+			index++;
+		}
+	}
+	for (k = low; k <= high; k++) {
+		andini[k] = b[k];
+	}
+}
