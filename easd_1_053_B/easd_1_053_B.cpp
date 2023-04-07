@@ -19,3 +19,14 @@ using namespace std;
 int andini[79];
 
 void merge(int, int, int);
+
+//Membagi array menjadi 2 bagian, mengurutkan array, dan menggabungkan 2 bagian yang sudah diurutkan
+void  merge_sort(int low, int high) {
+	int mid;
+	if (low < high) {
+		mid = (low + high) / 2;
+		merge_sort(low, mid);
+		merge_sort(mid + 1, high);
+		merge(low, mid, high);
+	}
+}
