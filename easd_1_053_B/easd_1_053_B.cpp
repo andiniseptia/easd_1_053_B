@@ -75,3 +75,6 @@ int main() {
 	//Deklarasi variable
 	int AA;
 	int i;
+
+	cout << "Masukkan jumlah data : ";
+	cin >> AA;
