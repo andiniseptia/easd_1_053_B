@@ -33,3 +33,9 @@ void  merge_sort(int low, int high) {
 
 //Menggabungkan 2 array dalam satu larik
 void merge(int low, int mid, int high) {
+
+	//Deklarasi penunjuk array yang nanti akan di bagi
+	int h, index, AA, b[79], k;
+	h = low;
+	index = low;
+	AA = mid + 1;
