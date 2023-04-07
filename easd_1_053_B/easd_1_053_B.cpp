@@ -85,3 +85,7 @@ int main() {
 		cout << "Data ke- " << i << " : ";
 		cin >> andini[i];
 	}
+
+	//Memanggil fungsi void yang sudah dibuat
+	merge_sort(1, AA);
+
