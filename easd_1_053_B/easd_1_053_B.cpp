@@ -11,3 +11,11 @@
 //Oleh karena itu, quicksort lebih efisien dan mudah diimplementasikan untuk data berukuran besar.
 //5. Quadratic : Bubblesort, Selectionsort, Insertionsort, dan Shellsort.
 //Loglinear : Quicksort dan Mergesort.
+
+#include <iostream>
+using namespace std;
+
+//Deklarasi Array
+int andini[79];
+
+void merge(int, int, int);
