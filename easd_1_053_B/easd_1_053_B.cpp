@@ -89,3 +89,11 @@ int main() {
 	//Memanggil fungsi void yang sudah dibuat
 	merge_sort(1, AA);
 
+	cout << endl << endl;
+	cout << "Hasil Output" << endl << endl;
+	for (i = 1; i <= AA; i++) {
+		cout << " " << andini[i];
+	}
+
+	return 0;
+}
