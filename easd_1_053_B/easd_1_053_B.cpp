@@ -78,3 +78,10 @@ int main() {
 
 	cout << "Masukkan jumlah data : ";
 	cin >> AA;
+
+	cout << endl << endl;
+	cout << " Silahkan masukkan " << AA << " data : " << endl << endl;
+	for (i = 1; i <= AA; i++) {
+		cout << "Data ke- " << i << " : ";
+		cin >> andini[i];
+	}
